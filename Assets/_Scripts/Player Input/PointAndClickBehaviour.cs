@@ -54,9 +54,8 @@ public class PointAndClickBehaviour : MonoBehaviour
                         {
                             return;
                         }
-                        //moving = true;
 
-                        //Start playing the footstep event
+                        //Start playing the footstep FMOD event
                         _footstepEvent.Play();
 
                         destinationPos = hit.point;
@@ -65,13 +64,9 @@ public class PointAndClickBehaviour : MonoBehaviour
             }
         }
 
-        //WORKING
-        //_navMeshAgent.SetDestination(destinationPos);
-
-        //TEST - Path check
         NavMeshPath path = new NavMeshPath();
         _navMeshAgent.CalculatePath(destinationPos, path);
-        if(path.status == NavMeshPathStatus.PathComplete)
+        if (path.status == NavMeshPathStatus.PathComplete)
         {
             if (PlayerGlobalVariables.instance.CanMove)
             {

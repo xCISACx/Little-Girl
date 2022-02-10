@@ -46,7 +46,9 @@ public class NewPlayerCameraRelativeMovement : MonoBehaviour
             //TODO: DETECT IF USING CONTROLLER AND GET INPUT
             //playerDirection = GetInput();
 
-            Vector3 dir = _playerGlobalVariables.CurrentCamera.transform.GetChild(0).TransformDirection(playerDirection);
+            var camera = _playerGlobalVariables.CurrentCamera.transform.GetChild(0);
+
+            Vector3 dir = camera.TransformDirection(playerDirection);
             dir.Set(dir.x, 0, dir.z);
 
             playerDirection = dir.normalized * playerDirection.magnitude;
