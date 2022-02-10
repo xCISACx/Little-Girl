@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 35b3c8ebc0b19204fbdad019390517d6
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - TargetActionPosition: {instanceID: 0}
+  - ButtonTexture: {instanceID: 0}
+  - NormalButtonTexture: {instanceID: 0}
+  - HoverButtonTexture: {instanceID: 0}
+  - ObservationIntertitle: {instanceID: 0}
+  - ObservationIntertitleText: {instanceID: 0}
+  - DefaultIntertitle: {fileID: 21300000, guid: 5ad95b2a05024164ab287af09bcbe7c0,
+      type: 3}
+  - OverrideIntertitle: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

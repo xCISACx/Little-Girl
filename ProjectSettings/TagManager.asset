@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Camera
+  - LeftPlate
+  - RightPlate
+  - Scale
+  - Hand
+  - HandTarget
+  - ScaleObject
+  - LeftPlatePoint
+  - RightPlatePoint
+  - LeftLinePoint
+  - RightLinePoint
+  - LeftLowerRollerPoint
+  - LeftUpperRollerPoint
+  - RightLowerRollerPoint
+  - RightUpperRollerPoint
+  - ScaleTopRollerPoint
+  - Cameras
+  - PauseCamera
+  - ReadableCamera
+  - CameraChanger
+  - CameraChangingZone
+  - Inventory
+  - ObservationIntertitle
+  - GameLoader
+  - SavingBlocker
+  - GamePersistence
+  - PauseMenu
+  - LoadingScreen
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - NonSelectable
+  - CameraChanger
+  - PuzzleLimiter
+  - PuzzleObjects
+  - Interaction
+  - ScalePlates
+  - SafeDials
+  - Vases
+  - Cotton
+  - Basket
+  - ReadableCanvas
+  - Highlights
+  - Interactable
+  - Movement
+  - Inventory
+  - PreventMovement
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Highlights
+    uniqueID: 1500740011
+    locked: 0

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="SnapshotGroup" id="{28974fb2-bbf3-4cd0-9b02-225846bd1fa6}">
+		<property name="name">
+			<value>First Level</value>
+		</property>
+		<relationship name="folder">
+			<destination>{75e4bc89-da0f-46bb-bfda-050b11c030e6}</destination>
+		</relationship>
+		<relationship name="items">
+			<destination>{214d0e0b-8f5e-436f-8dc1-a02399a4778f}</destination>
+			<destination>{8beb6b7a-5ece-4b63-8f71-eb90fd04befe}</destination>
+			<destination>{95d6c41f-4f8a-46ce-bffb-d516ba4ff7f9}</destination>
+			<destination>{315842da-08d3-41bb-9dfc-50f0a0ca1835}</destination>
+			<destination>{1bbdad1e-ace4-4738-b6d5-140fd9647588}</destination>
+			<destination>{bcd5aeb7-e976-4ca1-91c8-a86424dd9d00}</destination>
+			<destination>{273f5dde-bce6-447d-9acd-60d28e00ca35}</destination>
+			<destination>{6be6d97d-2313-48c3-b672-e7399ef97f17}</destination>
+		</relationship>
+	</object>
+</objects>

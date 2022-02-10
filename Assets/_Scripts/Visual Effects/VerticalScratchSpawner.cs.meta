@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: eb80881dc315d53439b1054bdb01f353
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - VerticalScratch: {fileID: 589800174794715046, guid: 0886dfd489029144da6e9ff74ac63631,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

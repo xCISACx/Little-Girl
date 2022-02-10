@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 6ffba226dcf02e144b1fd06e427594c0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - ContinueButton: {instanceID: 0}
+  - MainCanvas: {instanceID: 0}
+  - OptionsCanvas: {instanceID: 0}
+  - ExitConfirmationCanvas: {instanceID: 0}
+  - GameWasAlreadyRunning: {fileID: 807642345333291514, guid: a5bfbe087bc828a46a31c2e7b33c02bb,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
