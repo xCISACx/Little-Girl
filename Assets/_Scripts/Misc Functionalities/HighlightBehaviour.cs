@@ -59,11 +59,9 @@ public class HighlightBehaviour : MonoBehaviour
         Timer.Restart();
     }
 
-#if UNITY_EDITOR
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position + offset, 0.2f);
     }
-#endif
 }

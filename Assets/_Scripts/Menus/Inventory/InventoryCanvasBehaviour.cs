@@ -12,6 +12,12 @@ public class InventoryCanvasBehaviour : MonoBehaviour
 
     public Transform DraggingObject = null;
 
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
     private void Awake()
     {
         if (!instance)
@@ -22,6 +28,12 @@ public class InventoryCanvasBehaviour : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        //gameObject.GetComponent<Canvas>().enabled = !PlayerGlobalVariables.instance.isReading;
     }
 
     public void RegisterDrag(ReadableDragBehaviour drag)

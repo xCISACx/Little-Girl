@@ -124,11 +124,8 @@ public class ObservationDrawable : ActionDrawable
         //Activate the intertitle
         ObservationIntertitle.SetActive(true);
 
-        //Start the coroutine that hides the intertitle if the waiting time isn't 0
-        if (ObservationIntertitleTime != 0)
-        {
-            _IntertitleBehaviour.LastCoroutine = StartCoroutine(_IntertitleBehaviour.HideObservation(ObservationIntertitleTime, CanSkip));
-        }
+        //Start the coroutine that hides the intertitle
+        _IntertitleBehaviour.LastCoroutine = StartCoroutine(_IntertitleBehaviour.HideObservation(ObservationIntertitleTime, CanSkip));
     }
 
     protected bool CheckObservationActiveState()

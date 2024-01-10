@@ -83,6 +83,9 @@ public class PlayTimelineOnClipEnding : MonoBehaviour
         }
 
         //Destroy this timeline
-        Destroy(gameObject);
+        if (gameObject != null)
+        {
+            Destroy(gameObject);
+        }
     }
 }

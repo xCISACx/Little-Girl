@@ -8,37 +8,7 @@ using Debug = UnityEngine.Debug;
 
 public class GameManager : MonoBehaviour
 {
-    public static GameManager _instance;
-    public static GameManager instance
-    {
-        get
-        {
-            if(_instance != null)
-            {
-                return _instance;
-            }
-            else
-            {
-                //Search for existing instance
-                _instance = (GameManager)FindObjectOfType(typeof(GameManager));
-
-                //Create new instance if one doesn't already exist
-                if (_instance == null)
-                {
-                    //Need to create a new GameObject to attach the singleton to
-                    var singletonObject = new GameObject();
-                    _instance = singletonObject.AddComponent<GameManager>();
-                    singletonObject.name = typeof(GameManager).ToString() + " (Singleton)";
-
-                    //Make instance persistent
-                    DontDestroyOnLoad(singletonObject);
-                }
-
-                return _instance;
-            }
-        }
-    }
-    
+    public static GameManager instance;
     public LayerMask InteractableMask;
     public Texture2D circleTexture;
     public Texture2D circleOpenTexture;
@@ -84,9 +54,9 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
-        if (_instance == null)
+        if (!instance)
         {
-            _instance = this;
+            instance = this;
         }
 
         //Make sure the time scale is at normal speed

@@ -54,8 +54,9 @@ public class PointAndClickBehaviour : MonoBehaviour
                         {
                             return;
                         }
+                        moving = true;
 
-                        //Start playing the footstep FMOD event
+                        //Start playing the footstep event
                         _footstepEvent.Play();
 
                         destinationPos = hit.point;
@@ -64,9 +65,13 @@ public class PointAndClickBehaviour : MonoBehaviour
             }
         }
 
+        //WORKING
+        //_navMeshAgent.SetDestination(destinationPos);
+
+        //TEST - Path check
         NavMeshPath path = new NavMeshPath();
         _navMeshAgent.CalculatePath(destinationPos, path);
-        if (path.status == NavMeshPathStatus.PathComplete)
+        if(path.status == NavMeshPathStatus.PathComplete)
         {
             if (PlayerGlobalVariables.instance.CanMove)
             {
@@ -74,11 +79,7 @@ public class PointAndClickBehaviour : MonoBehaviour
             }
         }
 
-        anim.SetFloat("MovementSpeed", _navMeshAgent.velocity.magnitude);
-
-
-    }
-        /*if (CanPlayWalkingAnimation)
+        if (CanPlayWalkingAnimation)
         {
             if (_navMeshAgent.remainingDistance <= _navMeshAgent.stoppingDistance)
             {
@@ -94,19 +95,19 @@ public class PointAndClickBehaviour : MonoBehaviour
                 //Start playing the footstep event
                 _footstepEvent.Play();
             }
-
+            
             anim.SetBool("moving", moving);
         }
         else
         {
             DisableWalkingAnimation();
         }
-
+    }
 
     private void DisableWalkingAnimation()
     {
         //Makes sure the animation stops if the component is disabled
         moving = false;
         anim.SetBool("moving", moving);
-    }*/
+    }
 }

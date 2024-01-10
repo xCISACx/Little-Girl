@@ -29,6 +29,7 @@ public class Interaction : MonoBehaviour
     //Interaction start and stop events
     public UnityEvent Started, Stopped;
     
+    // Update is called once per frame
     void Update()
     {
         if (PlayerGlobalVariables.instance.CurrentCamera != InteractionCamera)
@@ -83,6 +84,7 @@ public class Interaction : MonoBehaviour
             }
         }
     }
+
     private void OnTriggerEnter(Collider other)
     {
         //If the colliding entity is the player
@@ -92,6 +94,7 @@ public class Interaction : MonoBehaviour
             CanInteract = true;
         }
     }
+
     public void StartInteraction()
     {
         //If the interaction requires a camera change
@@ -112,7 +115,8 @@ public class Interaction : MonoBehaviour
 
         //Invoke the "start" events
         Started.Invoke();
-    }  
+    }
+    
     public void ExitInteraction()
     {
         //Set the puzzle as "not being interacted with"
@@ -129,7 +133,8 @@ public class Interaction : MonoBehaviour
 
         //Invoke the "stop" events
         Stopped.Invoke();
-    }  
+    }
+    
     private void OnTriggerExit(Collider other)
     {
         //If the player exits the colliding area
@@ -140,6 +145,7 @@ public class Interaction : MonoBehaviour
             ExitInteraction();
         }
     }
+
     public void SwitchToInteractionCamera()
     {
         //Disable the current camera
@@ -151,6 +157,7 @@ public class Interaction : MonoBehaviour
         //Set the current camera as the interaction camera
         PlayerGlobalVariables.instance.CurrentCamera = InteractionCamera;
     }
+
     public void SwitchToPlayerCamera()
     {
         //Enable the previous camera

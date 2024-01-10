@@ -7,37 +7,8 @@ using UnityEngine.UI;
 
 public class PlayerGlobalVariables : MonoBehaviour
 {
-    public static PlayerGlobalVariables _instance;
-    public static PlayerGlobalVariables instance
-    {
-        get
-        {
-            if (_instance != null)
-            {
-                return _instance;
-            }
-            else
-            {
-                //Search for existing instance
-                _instance = (PlayerGlobalVariables)FindObjectOfType(typeof(PlayerGlobalVariables));
-
-                //Create new instance if one doesn't already exist
-                if (_instance == null)
-                {
-                    //Need to create a new GameObject to attach the singleton to
-                    var singletonObject = new GameObject();
-                    _instance = singletonObject.AddComponent<PlayerGlobalVariables>();
-                    singletonObject.name = typeof(PlayerGlobalVariables).ToString() + " (Singleton)";
-
-                    //Make instance persistent
-                    DontDestroyOnLoad(singletonObject);
-                }
-
-                return _instance;
-            }
-        }
-    }
-
+    public static PlayerGlobalVariables instance;
+    
     //Movement variables
     public float movementSpeed = 40;
     public float lookSpeed = 5;
@@ -89,9 +60,9 @@ public class PlayerGlobalVariables : MonoBehaviour
 
     private void Awake()
     {
-        if (!_instance)
+        if (!instance)
         {
-            _instance = this;
+            instance = this;
         }
 
         //Create references for the NavMeshAgent values

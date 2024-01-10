@@ -41,7 +41,7 @@ public class FMODLittleGirl : MonoBehaviour
     void Start()
     {
         fmodEvents = new Dictionary<string, FMOD.Studio.EventInstance>();
-        _walkingEvent = GameObject.FindGameObjectWithTag("Player").GetComponent<StudioEventEmitter>();
+        _walkingEvent = GameObject.FindGameObjectWithTag("Player")?.GetComponent<StudioEventEmitter>();
     }
 
     public void PlayAudio(string eventName)

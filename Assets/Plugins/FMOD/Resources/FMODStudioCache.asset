@@ -17,6 +17,57 @@ MonoBehaviour:
   Max: 5
   Default: 0
   Exists: 1
+--- !u!114 &-8671636338555679431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/SFX_Characters_LittleGirl_Walking/Speed Switch
+  m_EditorClassIdentifier: 
+  Name: Speed Switch
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-8665626086328202198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/SFX_Characters_LittleGirl_Walking/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  Min: 0
+  Max: 5
+  Default: 4
+  Exists: 0
+--- !u!114 &-8664662863964095206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/SFX_Characters_LittleGirl_Walking/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  Min: 0
+  Max: 5
+  Default: 4
+  Exists: 0
 --- !u!114 &-8530517669758995074
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73,7 +124,7 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 350
---- !u!114 &-8039782420193160423
+--- !u!114 &-8228165469970320547
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -82,43 +133,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/Puzzles/First Level/Tutorial/SFX_Tutorial_MusicBoxComplete
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Jump & Land/Jump Or Land
   m_EditorClassIdentifier: 
-  Path: event:/SFX/Puzzles/First Level/Tutorial/SFX_Tutorial_MusicBoxComplete
-  guid: 9d6117f3bafb6a428d27348f7348cb98
-  Banks:
-  - {fileID: -223349012175415200}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 659
---- !u!114 &-7944665165896473763
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/_Stingers/Puzzles/First Level/SFX_Stingers_Puzzle_Clock_IndividualSolution
-  m_EditorClassIdentifier: 
-  Path: event:/SFX/_Stingers/Puzzles/First Level/SFX_Stingers_Puzzle_Clock_IndividualSolution
-  guid: 0cd8a7cb9b61c043b4246cf1e19befe7
-  Banks:
-  - {fileID: -223349012175415200}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 2504
+  Name: Jump Or Land
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &-7682022166420349291
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -136,29 +158,6 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
---- !u!114 &-7593011929099183212
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Amb/Amb_VinylEffect
-  m_EditorClassIdentifier: 
-  Path: event:/Amb/Amb_VinylEffect
-  guid: ff61456916a2c44e9f762a0d014c3803
-  Banks:
-  - {fileID: 5172550657291131000}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 10133
 --- !u!114 &-7515390583242793626
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -176,6 +175,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &-7461367004034054397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/SFX_Characters_LittleGirl_Walking/Speed Switch
+  m_EditorClassIdentifier: 
+  Name: Speed Switch
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &-7456413440873519270
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -210,7 +226,24 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
---- !u!114 &-7144250640725764757
+--- !u!114 &-7131676939782077018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Jump & Land/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  Min: 0
+  Max: 5
+  Default: 4
+  Exists: 0
+--- !u!114 &-6960455454415834693
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -225,7 +258,7 @@ MonoBehaviour:
   Path: event:/Scale Object Drop/SFX_Puzzle_ScaleObjects_Weight5
   guid: b97b2553bd98e741ac81833edfc7892f
   Banks:
-  - {fileID: -223349012175415200}
+  - {fileID: 7393965354745421661}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -233,29 +266,6 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1513
---- !u!114 &-6918244716384954239
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: snapshot:/First Level/Puzzle
-  m_EditorClassIdentifier: 
-  Path: snapshot:/First Level/Puzzle
-  guid: 0b0e4d215e8f6f438dc1a02399a4778f
-  Banks:
-  - {fileID: 5172550657291131000}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 0
 --- !u!114 &-6904628742929293158
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -295,6 +305,70 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 138
+--- !u!114 &-6673080714613202590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/MasterB.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/@external/projetofmod/lilgirl-fmod-project/Build/Desktop/MasterB.bank
+  SubDir: 
+  lastModified: 637285366998807386
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-6605823310223159128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Amb/Amb_VinylEffect
+  m_EditorClassIdentifier: 
+  Path: event:/Amb/Amb_VinylEffect
+  guid: ff61456916a2c44e9f762a0d014c3803
+  Banks:
+  - {fileID: -6485255925906275536}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 10133
+--- !u!114 &-6596971778316728317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Puzzles/First Level/Tutorial/SFX_Tutorial_VaseDrag
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Puzzles/First Level/Tutorial/SFX_Tutorial_VaseDrag
+  guid: 2578abe025c12d4a9e53838ed690c066
+  Banks:
+  - {fileID: 7393965354745421661}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1736
 --- !u!114 &-6571370049064889972
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -317,7 +391,7 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 920
---- !u!114 &-6367366603876013578
+--- !u!114 &-6517573943534598269
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -332,7 +406,7 @@ MonoBehaviour:
   Path: snapshot:/First Level/Readable
   guid: 7a6beb8bce5e634b8f71eb90fd04befe
   Banks:
-  - {fileID: 5172550657291131000}
+  - {fileID: -6485255925906275536}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -340,6 +414,42 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &-6485255925906275536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/MasterB.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/@external/projetofmod/lilgirl-fmod-project/Build/Desktop/MasterB.bank
+  SubDir: 
+  lastModified: 637285459220000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-6159915940350081250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Bank_FirstLevel.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/@external/projetofmod/lilgirl-fmod-project/Build/Desktop/Bank_FirstLevel.bank
+  SubDir: 
+  lastModified: 637285423205757555
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-6042896214909195795
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -379,7 +489,48 @@ MonoBehaviour:
   Max: 5
   Default: 0
   Exists: 0
---- !u!114 &-5809452614184540170
+--- !u!114 &-5787348068674043344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/MasterB.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/@external/projetofmod/lilgirl-fmod-project/Build/Desktop/MasterB.bank
+  SubDir: 
+  lastModified: 637285423208899688
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-5631113490459778762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Scale Object Drop/SFX_Puzzle_ScaleObjects_Weight2
+  m_EditorClassIdentifier: 
+  Path: event:/Scale Object Drop/SFX_Puzzle_ScaleObjects_Weight2
+  guid: 48ee72bb9dffea4497ede84d23f577d4
+  Banks:
+  - {fileID: 7393965354745421661}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 888
+--- !u!114 &-5218578543119783646
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -394,7 +545,7 @@ MonoBehaviour:
   Path: event:/SFX/Puzzles/First Level/SFX_Puzzles_SafeDial
   guid: fcaa2ed32e777941a2c0fc28e14757e4
   Banks:
-  - {fileID: -223349012175415200}
+  - {fileID: 7393965354745421661}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -402,7 +553,7 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 659
---- !u!114 &-5696116200476528738
+--- !u!114 &-5199222084908031247
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -411,21 +562,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/Readables/SFX_Readables_Newspaper
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Bank_FirstLevel.bank
   m_EditorClassIdentifier: 
-  Path: event:/SFX/Readables/SFX_Readables_Newspaper
-  guid: 037f460afb958a4584107589bb9065b7
-  Banks:
-  - {fileID: -223349012175415200}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 1506
---- !u!114 &-5619208554901236490
+  Path: Assets/@external/projetofmod/lilgirl-fmod-project/Build/Desktop/Bank_FirstLevel.bank
+  SubDir: 
+  lastModified: 637285350897615980
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-4991498990613499263
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -434,14 +580,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Jump & Land/Material
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/MasterB.bank
   m_EditorClassIdentifier: 
-  Name: Material
-  Min: 0
-  Max: 5
-  Default: 4
-  Exists: 1
+  Path: Assets/@external/projetofmod/lilgirl-fmod-project/Build/Desktop/MasterB.bank
+  SubDir: 
+  lastModified: 637285362149170538
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-4910901292526829937
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -482,7 +629,7 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 180015
---- !u!114 &-4788356657053051658
+--- !u!114 &-4812283742930181564
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -492,20 +639,40 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Scale Object Drop/SFX_Puzzle_ScaleObjects_Weight2
+  m_Name: event:/SFX/Characters/Little Girl/SFX_Characters_LittleGirl_Walking
   m_EditorClassIdentifier: 
-  Path: event:/Scale Object Drop/SFX_Puzzle_ScaleObjects_Weight2
-  guid: 48ee72bb9dffea4497ede84d23f577d4
+  Path: event:/SFX/Characters/Little Girl/SFX_Characters_LittleGirl_Walking
+  guid: 951e7539d17e3747852524a4cea75b72
   Banks:
-  - {fileID: -223349012175415200}
+  - {fileID: -6485255925906275536}
   IsStream: 0
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 888
---- !u!114 &-4683886337080168021
+  Parameters:
+  - {fileID: 6780719050074352129}
+  - {fileID: -3091051078581361610}
+  MinDistance: 0.29999998
+  MaxDistance: 75
+  Length: 0
+--- !u!114 &-4785296692845046730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Bank_FirstLevel.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/@external/projetofmod/lilgirl-fmod-project/Build/Desktop/Bank_FirstLevel.bank
+  SubDir: 
+  lastModified: 637285362146597575
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-4729319498555594890
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -515,20 +682,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Scale Object Drop/SFX_Puzzle_ScaleObjects_Weight1
+  m_Name: event:/SFX/Readables/SFX_Readables_Newspaper
   m_EditorClassIdentifier: 
-  Path: event:/Scale Object Drop/SFX_Puzzle_ScaleObjects_Weight1
-  guid: 12b547d1f1d4d349991d0598cf935d74
+  Path: event:/SFX/Readables/SFX_Readables_Newspaper
+  guid: 037f460afb958a4584107589bb9065b7
   Banks:
-  - {fileID: -223349012175415200}
+  - {fileID: 7393965354745421661}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 694
---- !u!114 &-4110610971465792160
+  Length: 1506
+--- !u!114 &-4038610158146329947
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -537,20 +704,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Scale Object Drop/SFX_Puzzle_ScaleObjects_Weight4
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Bank_FirstLevel.bank
   m_EditorClassIdentifier: 
-  Path: event:/Scale Object Drop/SFX_Puzzle_ScaleObjects_Weight4
-  guid: 3b735bb33b160e43a9d6a80f59627ed6
-  Banks:
-  - {fileID: -223349012175415200}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 1006
+  Path: Assets/@external/projetofmod/lilgirl-fmod-project/Build/Desktop/Bank_FirstLevel.bank
+  SubDir: 
+  lastModified: 637285394886965989
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-4029832508543697208
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -568,7 +730,25 @@ MonoBehaviour:
   Max: 5
   Default: 0
   Exists: 0
---- !u!114 &-3823901954428964389
+--- !u!114 &-3957891029199358985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Bank_FirstLevel.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/@external/projetofmod/lilgirl-fmod-project/Build/Desktop/Bank_FirstLevel.bank
+  SubDir: 
+  lastModified: 637285349651078203
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-3808446383990871999
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -578,42 +758,60 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/_Stingers/Puzzles/First Level/SFX_Stingers_Puzzle_Safe_Solution
+  m_Name: event:/SFX/Puzzles/First Level/SFX_Puzzles_ClockTick
   m_EditorClassIdentifier: 
-  Path: event:/SFX/_Stingers/Puzzles/First Level/SFX_Stingers_Puzzle_Safe_Solution
-  guid: cd027686b1d6b94db77477787e7851c1
+  Path: event:/SFX/Puzzles/First Level/SFX_Puzzles_ClockTick
+  guid: ad153e37e55d084492ded644dc5dd6b4
   Banks:
-  - {fileID: 5172550657291131000}
+  - {fileID: -6485255925906275536}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 11814
+--- !u!114 &-3762613829926442440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Bank_FirstLevel.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/@external/projetofmod/lilgirl-fmod-project/Build/Desktop/Bank_FirstLevel.bank
+  SubDir: 
+  lastModified: 637285398330866940
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-3697030541830842818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Puzzles/First Level/SFX_Puzzles_Clock_MinutePointer
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Puzzles/First Level/SFX_Puzzles_Clock_MinutePointer
+  guid: 139793b4768e49408e26bbfa04a810b1
+  Banks:
+  - {fileID: 7393965354745421661}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 2000
---- !u!114 &-3818814002684412554
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: snapshot:/First Level/Exterior Trees
-  m_EditorClassIdentifier: 
-  Path: snapshot:/First Level/Exterior Trees
-  guid: 7dd9e66b1323c348b672e7399ef97f17
-  Banks:
-  - {fileID: 5172550657291131000}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 0
+  Length: 694
 --- !u!114 &-3612779859016148287
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -631,6 +829,29 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &-3559069874009835445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/First Level/Exterior
+  m_EditorClassIdentifier: 
+  Path: snapshot:/First Level/Exterior
+  guid: de5d3f27e6bc7d449acd60d28e00ca35
+  Banks:
+  - {fileID: -6485255925906275536}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &-3533647280666903846
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -649,7 +870,41 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
---- !u!114 &-3425335736276347814
+--- !u!114 &-3533644308586650682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/SFX_Characters_LittleGirl_Walking/Speed Switch
+  m_EditorClassIdentifier: 
+  Name: Speed Switch
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-3091051078581361610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/SFX_Characters_LittleGirl_Walking/Speed Switch
+  m_EditorClassIdentifier: 
+  Name: Speed Switch
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 1
+--- !u!114 &-3004350205175688405
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -659,90 +914,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Scale Object Drop/SFX_Puzzle_ScaleObjects_Weight6
+  m_Name: snapshot:/First Level/Basement
   m_EditorClassIdentifier: 
-  Path: event:/Scale Object Drop/SFX_Puzzle_ScaleObjects_Weight6
-  guid: e7b1cf795a8ccd4695e08e73bcffead4
+  Path: snapshot:/First Level/Basement
+  guid: 1fc4d6958a4fce46bffbd516ba4ff7f9
   Banks:
-  - {fileID: -223349012175415200}
+  - {fileID: -6485255925906275536}
   IsStream: 0
   Is3D: 0
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 1222
---- !u!114 &-3381728910882525521
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/Characters/Little Girl/SFX_Characters_LittleGirl_Walking
-  m_EditorClassIdentifier: 
-  Path: event:/SFX/Characters/Little Girl/SFX_Characters_LittleGirl_Walking
-  guid: 951e7539d17e3747852524a4cea75b72
-  Banks:
-  - {fileID: 5172550657291131000}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters:
-  - {fileID: 3963943191472023444}
-  - {fileID: 2711422331958179058}
-  MinDistance: 0.29999998
-  MaxDistance: 75
   Length: 0
---- !u!114 &-3300225981779402019
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/Readables/SFX_Readables_Book
-  m_EditorClassIdentifier: 
-  Path: event:/SFX/Readables/SFX_Readables_Book
-  guid: f5d74d8463598845af582070df206c0a
-  Banks:
-  - {fileID: -223349012175415200}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 2229
---- !u!114 &-3266101373702147624
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/Puzzles/First Level/Tutorial/SFX_Tutorial_VaseDrag
-  m_EditorClassIdentifier: 
-  Path: event:/SFX/Puzzles/First Level/Tutorial/SFX_Tutorial_VaseDrag
-  guid: 2578abe025c12d4a9e53838ed690c066
-  Banks:
-  - {fileID: -223349012175415200}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 1736
 --- !u!114 &-2772942235855832834
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -767,7 +951,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &-2544269084705106772
+--- !u!114 &-2756892424118226504
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -777,42 +961,36 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/Puzzles/First Level/Tutorial/SFX_Tutorial_CottonballRip
+  m_Name: event:/Amb/First Level/Soundscape/Amb_FirstLevel_Soundscape_CrowCaw
   m_EditorClassIdentifier: 
-  Path: event:/SFX/Puzzles/First Level/Tutorial/SFX_Tutorial_CottonballRip
-  guid: 2c3ec5a9bff2f640ab283c823d9c145a
+  Path: event:/Amb/First Level/Soundscape/Amb_FirstLevel_Soundscape_CrowCaw
+  guid: dd172d0be38eb54299adc6d5312603ce
   Banks:
-  - {fileID: -223349012175415200}
+  - {fileID: 7393965354745421661}
   IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 826
---- !u!114 &-2520162402530932853
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Amb/Amb_Wind
-  m_EditorClassIdentifier: 
-  Path: event:/Amb/Amb_Wind
-  guid: 5640d0dc78b96940bbbf8b90c1dda82f
-  Banks:
-  - {fileID: 5172550657291131000}
-  IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 10000
+  Length: 1294
+--- !u!114 &-2654573885066810613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/SFX_Characters_LittleGirl_Walking/Speed Switch
+  m_EditorClassIdentifier: 
+  Name: Speed Switch
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &-2407892420674037035
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -830,7 +1008,7 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
---- !u!114 &-2288251114856291343
+--- !u!114 &-2223052497222094214
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -839,20 +1017,31 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/MX/First Level/Cutscenes/MX_FirstLevel_Cutscenes_ActIEndingCutscene
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Jump & Land/Material
   m_EditorClassIdentifier: 
-  Path: event:/MX/First Level/Cutscenes/MX_FirstLevel_Cutscenes_ActIEndingCutscene
-  guid: a8e31b8169e49340bf494f5a83482658
-  Banks:
-  - {fileID: -223349012175415200}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 58961
+  Name: Material
+  Min: 0
+  Max: 5
+  Default: 4
+  Exists: 0
+--- !u!114 &-2145027006424707315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Jump & Land/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  Min: 0
+  Max: 5
+  Default: 4
+  Exists: 0
 --- !u!114 &-2008925237906761448
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -875,7 +1064,24 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 59416
---- !u!114 &-1641899136957796534
+--- !u!114 &-2002954111194550451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/SFX_Characters_LittleGirl_Walking/Speed Switch
+  m_EditorClassIdentifier: 
+  Name: Speed Switch
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-1980419630575540767
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -885,19 +1091,76 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: snapshot:/First Level/Barn
+  m_Name: event:/SFX/_Stingers/Puzzles/First Level/SFX_Stingers_Puzzle_Safe_Solution
   m_EditorClassIdentifier: 
-  Path: snapshot:/First Level/Barn
-  guid: b7aed5bc76e9a14c91c8a86424dd9d00
+  Path: event:/SFX/_Stingers/Puzzles/First Level/SFX_Stingers_Puzzle_Safe_Solution
+  guid: cd027686b1d6b94db77477787e7851c1
   Banks:
-  - {fileID: 5172550657291131000}
+  - {fileID: -6485255925906275536}
   IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &-1976725658918993126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/SFX_Characters_LittleGirl_Walking/Speed Switch
+  m_EditorClassIdentifier: 
+  Name: Speed Switch
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-1810142604727432830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Jump & Land/Jump Or Land
+  m_EditorClassIdentifier: 
+  Name: Jump Or Land
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-1791133712620153774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Amb/Amb_Wind
+  m_EditorClassIdentifier: 
+  Path: event:/Amb/Amb_Wind
+  guid: 5640d0dc78b96940bbbf8b90c1dda82f
+  Banks:
+  - {fileID: -6485255925906275536}
+  IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 0
+  Length: 10000
 --- !u!114 &-1636497856554110902
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -915,7 +1178,42 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
---- !u!114 &-1226518326205541789
+--- !u!114 &-1521652381307179217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/MasterB.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/@external/projetofmod/lilgirl-fmod-project/Build/Desktop/MasterB.bank
+  SubDir: 
+  lastModified: 637265647768251625
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-1320372691066928874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Jump & Land/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  Min: 0
+  Max: 5
+  Default: 4
+  Exists: 1
+--- !u!114 &-1253566264555550432
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -925,20 +1223,43 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/Puzzles/First Level/SFX_Puzzles_ClockTick
+  m_Name: event:/SFX/Puzzles/First Level/Tutorial/SFX_Tutorial_MusicBoxComplete
   m_EditorClassIdentifier: 
-  Path: event:/SFX/Puzzles/First Level/SFX_Puzzles_ClockTick
-  guid: ad153e37e55d084492ded644dc5dd6b4
+  Path: event:/SFX/Puzzles/First Level/Tutorial/SFX_Tutorial_MusicBoxComplete
+  guid: 9d6117f3bafb6a428d27348f7348cb98
   Banks:
-  - {fileID: 5172550657291131000}
+  - {fileID: 7393965354745421661}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 659
+--- !u!114 &-1059376491723100289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MX/First Level/MX_FirstLevel_InGameLoop
+  m_EditorClassIdentifier: 
+  Path: event:/MX/First Level/MX_FirstLevel_InGameLoop
+  guid: 025c75c1a985d543868a301993924688
+  Banks:
+  - {fileID: 7393965354745421661}
   IsStream: 1
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 0
   Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 11814
---- !u!114 &-888230464381162717
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 16243
+--- !u!114 &-508168305153816203
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -948,20 +1269,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/User Interface/Main Menu/UI_MainMenu_MouseOver
+  m_Name: event:/SFX/Puzzles/First Level/Tutorial/SFX_Tutorial_MusicBoxGear
   m_EditorClassIdentifier: 
-  Path: event:/User Interface/Main Menu/UI_MainMenu_MouseOver
-  guid: 3a84e47bb5fc3347b0b47a6095c17d62
+  Path: event:/SFX/Puzzles/First Level/Tutorial/SFX_Tutorial_MusicBoxGear
+  guid: 05c2e63206da4f4690a02d58f522011c
   Banks:
-  - {fileID: 5172550657291131000}
+  - {fileID: 7393965354745421661}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 670
---- !u!114 &-607481273053605517
+  Length: 659
+--- !u!114 &-504998246785200821
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -970,20 +1291,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/Readables/SFX_Readables_Sheet
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/SFX_Characters_LittleGirl_Walking/Material
   m_EditorClassIdentifier: 
-  Path: event:/SFX/Readables/SFX_Readables_Sheet
-  guid: 5709824800891b4cadc23c81c760614d
-  Banks:
-  - {fileID: -223349012175415200}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 1500
+  Name: Material
+  Min: 0
+  Max: 5
+  Default: 4
+  Exists: 0
 --- !u!114 &-475993536292968746
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1006,7 +1321,7 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 940
---- !u!114 &-420274393482855346
+--- !u!114 &-349522012555683554
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1015,21 +1330,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: snapshot:/First Level/Basement
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Jump & Land/Material
   m_EditorClassIdentifier: 
-  Path: snapshot:/First Level/Basement
-  guid: 1fc4d6958a4fce46bffbd516ba4ff7f9
-  Banks:
-  - {fileID: 5172550657291131000}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 0
---- !u!114 &-223349012175415200
+  Name: Material
+  Min: 0
+  Max: 5
+  Default: 0
+  Exists: 0
+--- !u!114 &-329217846993779873
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1043,11 +1352,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: Assets/@external/projetofmod/lilgirl-fmod-project/Build/Desktop/Bank_FirstLevel.bank
   SubDir: 
-  lastModified: 637635414161598767
+  lastModified: 637285366996234179
   LoadResult: 0
   FileSizes: []
-  Exists: 1
---- !u!114 &-159382844825688181
+  Exists: 0
+--- !u!114 &-102053341019084302
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1057,19 +1366,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: snapshot:/First Level/Exterior
+  m_Name: event:/Scale Object Drop/SFX_Puzzle_ScaleObjects_Weight1
   m_EditorClassIdentifier: 
-  Path: snapshot:/First Level/Exterior
-  guid: de5d3f27e6bc7d449acd60d28e00ca35
+  Path: event:/Scale Object Drop/SFX_Puzzle_ScaleObjects_Weight1
+  guid: 12b547d1f1d4d349991d0598cf935d74
   Banks:
-  - {fileID: 5172550657291131000}
+  - {fileID: 7393965354745421661}
   IsStream: 0
   Is3D: 0
-  IsOneShot: 0
+  IsOneShot: 1
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 0
+  Length: 694
 --- !u!114 &-12959195520803409
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1106,54 +1415,54 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: 5990690501911589312}
-  - {fileID: -223349012175415200}
-  - {fileID: 5172550657291131000}
+  - {fileID: 7393965354745421661}
+  - {fileID: -6485255925906275536}
   EditorEvents:
   - {fileID: 72319903071942070}
   - {fileID: 6350203370828701477}
   - {fileID: 843319653958243719}
-  - {fileID: 360456795760412153}
-  - {fileID: -5696116200476528738}
-  - {fileID: 3479944016835350347}
-  - {fileID: -7944665165896473763}
-  - {fileID: -4683886337080168021}
-  - {fileID: 8800880290167895731}
-  - {fileID: 4444746218761536845}
-  - {fileID: -3266101373702147624}
-  - {fileID: -2544269084705106772}
-  - {fileID: -4110610971465792160}
-  - {fileID: -4788356657053051658}
-  - {fileID: -607481273053605517}
-  - {fileID: 6554915842696280784}
-  - {fileID: -8039782420193160423}
-  - {fileID: -2288251114856291343}
-  - {fileID: -7144250640725764757}
-  - {fileID: 7672871746993102222}
-  - {fileID: -3425335736276347814}
-  - {fileID: 5480216414068879377}
-  - {fileID: -3300225981779402019}
-  - {fileID: -5809452614184540170}
-  - {fileID: -6918244716384954239}
-  - {fileID: -420274393482855346}
-  - {fileID: -888230464381162717}
-  - {fileID: -2520162402530932853}
-  - {fileID: 7664045586784013663}
-  - {fileID: -6367366603876013578}
-  - {fileID: -3818814002684412554}
-  - {fileID: -3381728910882525521}
-  - {fileID: -1226518326205541789}
-  - {fileID: -1641899136957796534}
-  - {fileID: 1629757124803936952}
-  - {fileID: -3823901954428964389}
-  - {fileID: 1966980381895397271}
-  - {fileID: -159382844825688181}
-  - {fileID: -7593011929099183212}
+  - {fileID: -1059376491723100289}
+  - {fileID: -4729319498555594890}
+  - {fileID: -508168305153816203}
+  - {fileID: 614590793715657992}
+  - {fileID: -102053341019084302}
+  - {fileID: -3697030541830842818}
+  - {fileID: 7483943593531752535}
+  - {fileID: -6596971778316728317}
+  - {fileID: 6756818771326912132}
+  - {fileID: 6680516294787759021}
+  - {fileID: -5631113490459778762}
+  - {fileID: 2111989246452690784}
+  - {fileID: 728718835700463214}
+  - {fileID: 4604658480018716510}
+  - {fileID: -6960455454415834693}
+  - {fileID: -2756892424118226504}
+  - {fileID: 7772247508025075318}
+  - {fileID: 5421181498970397438}
+  - {fileID: 3962320890064783628}
+  - {fileID: -5218578543119783646}
+  - {fileID: 6850431559988945839}
+  - {fileID: -3004350205175688405}
+  - {fileID: 285587977730456508}
+  - {fileID: -1791133712620153774}
+  - {fileID: 3814878645451402564}
+  - {fileID: -6517573943534598269}
+  - {fileID: 3577409252774713023}
+  - {fileID: -4812283742930181564}
+  - {fileID: -3808446383990871999}
+  - {fileID: 4663608111683119347}
+  - {fileID: 3536521025310502170}
+  - {fileID: -1980419630575540767}
+  - {fileID: 8487966115070400613}
+  - {fileID: -3559069874009835445}
+  - {fileID: -6605823310223159128}
+  - {fileID: -1253566264555550432}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 5172550657291131000}
+  - {fileID: -6485255925906275536}
   StringsBanks:
   - {fileID: 5990690501911589312}
-  stringsBankWriteTime: 637635414161921173
+  stringsBankWriteTime: 637285459220000000
   cacheVersion: 3
 --- !u!114 &72319903071942070
 MonoBehaviour:
@@ -1170,17 +1479,17 @@ MonoBehaviour:
   Path: event:/Char Sounds/Jump & Land
   guid: 8647acc5d681594b9e8409046b6512da
   Banks:
-  - {fileID: 5172550657291131000}
+  - {fileID: -6485255925906275536}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
   Parameters:
-  - {fileID: -5619208554901236490}
-  - {fileID: 4578107845054034447}
+  - {fileID: -1320372691066928874}
+  - {fileID: 8979568690688050449}
   MinDistance: 1
   MaxDistance: 20
   Length: 514
---- !u!114 &360456795760412153
+--- !u!114 &285587977730456508
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1190,19 +1499,118 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/MX/First Level/MX_FirstLevel_InGameLoop
+  m_Name: event:/User Interface/Main Menu/UI_MainMenu_MouseOver
   m_EditorClassIdentifier: 
-  Path: event:/MX/First Level/MX_FirstLevel_InGameLoop
-  guid: 025c75c1a985d543868a301993924688
+  Path: event:/User Interface/Main Menu/UI_MainMenu_MouseOver
+  guid: 3a84e47bb5fc3347b0b47a6095c17d62
   Banks:
-  - {fileID: -223349012175415200}
-  IsStream: 1
+  - {fileID: -6485255925906275536}
+  IsStream: 0
   Is3D: 0
-  IsOneShot: 0
+  IsOneShot: 1
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 16243
+  Length: 670
+--- !u!114 &556888999845320703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/MasterB.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/@external/projetofmod/lilgirl-fmod-project/Build/Desktop/MasterB.bank
+  SubDir: 
+  lastModified: 637285349671001984
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &591744964862565316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/MasterB.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/@external/projetofmod/lilgirl-fmod-project/Build/Desktop/MasterB.bank
+  SubDir: 
+  lastModified: 637285350900208633
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &614590793715657992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/_Stingers/Puzzles/First Level/SFX_Stingers_Puzzle_Clock_IndividualSolution
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/_Stingers/Puzzles/First Level/SFX_Stingers_Puzzle_Clock_IndividualSolution
+  guid: 0cd8a7cb9b61c043b4246cf1e19befe7
+  Banks:
+  - {fileID: 7393965354745421661}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2504
+--- !u!114 &638653604519279800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/SFX_Characters_LittleGirl_Walking/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  Min: 0
+  Max: 5
+  Default: 0
+  Exists: 0
+--- !u!114 &728718835700463214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Puzzles/First Level/SFX_Puzzles_Clock_HourPointer
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Puzzles/First Level/SFX_Puzzles_Clock_HourPointer
+  guid: 9cc965a0b23f6c489113a5ae5e9e7aa9
+  Banks:
+  - {fileID: 7393965354745421661}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 694
 --- !u!114 &823723603605022081
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1236,7 +1644,7 @@ MonoBehaviour:
   Path: snapshot:/Reverb Zone1
   guid: fa84fc95497c0c4ba08caee649bda747
   Banks:
-  - {fileID: 5172550657291131000}
+  - {fileID: -6485255925906275536}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -1244,6 +1652,40 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &990272560321875664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/SFX_Characters_LittleGirl_Walking/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  Min: 0
+  Max: 5
+  Default: 4
+  Exists: 0
+--- !u!114 &1012950949638976909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Jump & Land/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  Min: 0
+  Max: 5
+  Default: 4
+  Exists: 0
 --- !u!114 &1221651126081146720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1266,7 +1708,25 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 320
---- !u!114 &1629757124803936952
+--- !u!114 &1420426665147297703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Bank_FirstLevel.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/@external/projetofmod/lilgirl-fmod-project/Build/Desktop/Bank_FirstLevel.bank
+  SubDir: 
+  lastModified: 637285400585664171
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &2111989246452690784
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1276,20 +1736,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/User Interface/Main Menu/UI_MainMenu_MouseClick
+  m_Name: event:/SFX/Readables/SFX_Readables_Sheet
   m_EditorClassIdentifier: 
-  Path: event:/User Interface/Main Menu/UI_MainMenu_MouseClick
-  guid: c1a91e02fbd2554dbab37a9b57f11be5
+  Path: event:/SFX/Readables/SFX_Readables_Sheet
+  guid: 5709824800891b4cadc23c81c760614d
   Banks:
-  - {fileID: 5172550657291131000}
+  - {fileID: 7393965354745421661}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 172
---- !u!114 &1966980381895397271
+  Length: 1500
+--- !u!114 &2189946734142540388
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1298,21 +1758,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: snapshot:/First Level/First Floor
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Jump & Land/Material
   m_EditorClassIdentifier: 
-  Path: snapshot:/First Level/First Floor
-  guid: da425831d308bb419dfc50f0a0ca1835
-  Banks:
-  - {fileID: 5172550657291131000}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 0
---- !u!114 &2711422331958179058
+  Name: Material
+  Min: 0
+  Max: 5
+  Default: 4
+  Exists: 0
+--- !u!114 &2336894572811877820
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1328,7 +1782,42 @@ MonoBehaviour:
   Min: 0
   Max: 2
   Default: 0
-  Exists: 1
+  Exists: 0
+--- !u!114 &2598682756062954714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Bank_FirstLevel.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/@external/projetofmod/lilgirl-fmod-project/Build/Desktop/Bank_FirstLevel.bank
+  SubDir: 
+  lastModified: 637265647752297080
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &2685380674956090599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Jump & Land/Jump Or Land
+  m_EditorClassIdentifier: 
+  Name: Jump Or Land
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &2752721643080131380
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1351,7 +1840,7 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1500
---- !u!114 &3479944016835350347
+--- !u!114 &3536521025310502170
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1361,20 +1850,61 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/Puzzles/First Level/Tutorial/SFX_Tutorial_MusicBoxGear
+  m_Name: event:/User Interface/Main Menu/UI_MainMenu_MouseClick
   m_EditorClassIdentifier: 
-  Path: event:/SFX/Puzzles/First Level/Tutorial/SFX_Tutorial_MusicBoxGear
-  guid: 05c2e63206da4f4690a02d58f522011c
+  Path: event:/User Interface/Main Menu/UI_MainMenu_MouseClick
+  guid: c1a91e02fbd2554dbab37a9b57f11be5
   Banks:
-  - {fileID: -223349012175415200}
+  - {fileID: -6485255925906275536}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 659
---- !u!114 &3963943191472023444
+  Length: 172
+--- !u!114 &3577409252774713023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/First Level/Exterior Trees
+  m_EditorClassIdentifier: 
+  Path: snapshot:/First Level/Exterior Trees
+  guid: 7dd9e66b1323c348b672e7399ef97f17
+  Banks:
+  - {fileID: -6485255925906275536}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &3606170020762084650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/MasterB.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/@external/projetofmod/lilgirl-fmod-project/Build/Desktop/MasterB.bank
+  SubDir: 
+  lastModified: 637285394889639894
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &3642826610994219206
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1384,13 +1914,59 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/SFX_Characters_LittleGirl_Walking/Material
+  m_Name: Material
   m_EditorClassIdentifier: 
   Name: Material
   Min: 0
   Max: 5
   Default: 4
-  Exists: 1
+  Exists: 0
+--- !u!114 &3814878645451402564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/_Stingers/Puzzles/First Level/SFX_Stingers_DoorSolution
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/_Stingers/Puzzles/First Level/SFX_Stingers_DoorSolution
+  guid: 722806b5f355a145987ade891a269f13
+  Banks:
+  - {fileID: -6485255925906275536}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1900
+--- !u!114 &3962320890064783628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Readables/SFX_Readables_Book
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Readables/SFX_Readables_Book
+  guid: f5d74d8463598845af582070df206c0a
+  Banks:
+  - {fileID: 7393965354745421661}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2229
 --- !u!114 &4088645862830710381
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1408,7 +1984,7 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
---- !u!114 &4444746218761536845
+--- !u!114 &4131690593623509995
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1417,21 +1993,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: snapshot:/First Level/Ground Floor
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Jump & Land/Jump Or Land
   m_EditorClassIdentifier: 
-  Path: snapshot:/First Level/Ground Floor
-  guid: 1eadbd1be4ac3847b6d5140fd9647588
-  Banks:
-  - {fileID: -223349012175415200}
-  - {fileID: 5172550657291131000}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 0
+  Name: Jump Or Land
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &4465743077605110337
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1454,7 +2023,7 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 230000
---- !u!114 &4578107845054034447
+--- !u!114 &4604658480018716510
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1463,15 +2032,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Jump & Land/Jump Or Land
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MX/First Level/Cutscenes/MX_FirstLevel_Cutscenes_ActIEndingCutscene
   m_EditorClassIdentifier: 
-  Name: Jump Or Land
-  Min: 0
-  Max: 2
-  Default: 0
-  Exists: 1
---- !u!114 &5172550657291131000
+  Path: event:/MX/First Level/Cutscenes/MX_FirstLevel_Cutscenes_ActIEndingCutscene
+  guid: a8e31b8169e49340bf494f5a83482658
+  Banks:
+  - {fileID: 7393965354745421661}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 58961
+--- !u!114 &4663608111683119347
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1480,15 +2055,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/MasterB.bank
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/First Level/Barn
   m_EditorClassIdentifier: 
-  Path: Assets/@external/projetofmod/lilgirl-fmod-project/Build/Desktop/MasterB.bank
-  SubDir: 
-  lastModified: 637635414168468366
-  LoadResult: 0
-  FileSizes: []
-  Exists: 1
+  Path: snapshot:/First Level/Barn
+  guid: b7aed5bc76e9a14c91c8a86424dd9d00
+  Banks:
+  - {fileID: -6485255925906275536}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &5292346958756289273
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1511,7 +2091,7 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 320
---- !u!114 &5480216414068879377
+--- !u!114 &5421181498970397438
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1526,7 +2106,7 @@ MonoBehaviour:
   Path: event:/Scale Object Drop/SFX_Puzzle_ScaleObjects_Weight3
   guid: e9bcf47ab1e8f3459141e954932c9c61
   Banks:
-  - {fileID: -223349012175415200}
+  - {fileID: 7393965354745421661}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1534,6 +2114,57 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 993
+--- !u!114 &5436448471289227202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Jump & Land/Jump Or Land
+  m_EditorClassIdentifier: 
+  Name: Jump Or Land
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &5715827621451569157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/SFX_Characters_LittleGirl_Walking/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  Min: 0
+  Max: 5
+  Default: 4
+  Exists: 0
+--- !u!114 &5807267737972187797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/SFX_Characters_LittleGirl_Walking/Speed Switch
+  m_EditorClassIdentifier: 
+  Name: Speed Switch
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &5942557925168916328
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1570,7 +2201,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: Assets/@external/projetofmod/lilgirl-fmod-project/Build/Desktop/MasterB.strings.bank
   SubDir: 
-  lastModified: 637635414161921173
+  lastModified: 637285459220000000
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -1630,7 +2261,7 @@ MonoBehaviour:
   Path: event:/DoorSolutionIndex
   guid: d8828884ca99024a8b178a43073f8a33
   Banks:
-  - {fileID: 5172550657291131000}
+  - {fileID: -6485255925906275536}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1638,7 +2269,25 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1171
---- !u!114 &6554915842696280784
+--- !u!114 &6649604497665425277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/MasterB.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/@external/projetofmod/lilgirl-fmod-project/Build/Desktop/MasterB.bank
+  SubDir: 
+  lastModified: 637285398333570029
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &6680516294787759021
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1648,19 +2297,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/Puzzles/First Level/SFX_Puzzles_Clock_HourPointer
+  m_Name: event:/Scale Object Drop/SFX_Puzzle_ScaleObjects_Weight4
   m_EditorClassIdentifier: 
-  Path: event:/SFX/Puzzles/First Level/SFX_Puzzles_Clock_HourPointer
-  guid: 9cc965a0b23f6c489113a5ae5e9e7aa9
+  Path: event:/Scale Object Drop/SFX_Puzzle_ScaleObjects_Weight4
+  guid: 3b735bb33b160e43a9d6a80f59627ed6
   Banks:
-  - {fileID: -223349012175415200}
+  - {fileID: 7393965354745421661}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 694
+  Length: 1006
 --- !u!114 &6688566765362763275
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1683,6 +2332,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 62
+--- !u!114 &6756818771326912132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Puzzles/First Level/Tutorial/SFX_Tutorial_CottonballRip
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Puzzles/First Level/Tutorial/SFX_Tutorial_CottonballRip
+  guid: 2c3ec5a9bff2f640ab283c823d9c145a
+  Banks:
+  - {fileID: 7393965354745421661}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 826
 --- !u!114 &6764389780659014873
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1700,6 +2372,23 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &6780719050074352129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/SFX_Characters_LittleGirl_Walking/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  Min: 0
+  Max: 5
+  Default: 4
+  Exists: 1
 --- !u!114 &6801259695932716157
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1722,6 +2411,46 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 2080
+--- !u!114 &6850431559988945839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/First Level/Puzzle
+  m_EditorClassIdentifier: 
+  Path: snapshot:/First Level/Puzzle
+  guid: 0b0e4d215e8f6f438dc1a02399a4778f
+  Banks:
+  - {fileID: -6485255925906275536}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &7021042792888055514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/SFX_Characters_LittleGirl_Walking/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  Min: 0
+  Max: 5
+  Default: 4
+  Exists: 0
 --- !u!114 &7036104710524609722
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1757,7 +2486,59 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
---- !u!114 &7664045586784013663
+--- !u!114 &7101610714619697058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Jump & Land/Jump Or Land
+  m_EditorClassIdentifier: 
+  Name: Jump Or Land
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &7231084494726178612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Jump & Land/Jump Or Land
+  m_EditorClassIdentifier: 
+  Name: Jump Or Land
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &7393965354745421661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Bank_FirstLevel.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/@external/projetofmod/lilgirl-fmod-project/Build/Desktop/Bank_FirstLevel.bank
+  SubDir: 
+  lastModified: 637285459220000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &7483943593531752535
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1767,42 +2548,77 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/_Stingers/Puzzles/First Level/SFX_Stingers_DoorSolution
+  m_Name: snapshot:/First Level/Ground Floor
   m_EditorClassIdentifier: 
-  Path: event:/SFX/_Stingers/Puzzles/First Level/SFX_Stingers_DoorSolution
-  guid: 722806b5f355a145987ade891a269f13
+  Path: snapshot:/First Level/Ground Floor
+  guid: 1eadbd1be4ac3847b6d5140fd9647588
   Banks:
-  - {fileID: 5172550657291131000}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 1900
---- !u!114 &7672871746993102222
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Amb/First Level/Soundscape/Amb_FirstLevel_Soundscape_CrowCaw
-  m_EditorClassIdentifier: 
-  Path: event:/Amb/First Level/Soundscape/Amb_FirstLevel_Soundscape_CrowCaw
-  guid: dd172d0be38eb54299adc6d5312603ce
-  Banks:
-  - {fileID: -223349012175415200}
+  - {fileID: 7393965354745421661}
+  - {fileID: -6485255925906275536}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 1294
+  Length: 0
+--- !u!114 &7542025068355303760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Jump & Land/Jump Or Land
+  m_EditorClassIdentifier: 
+  Name: Jump Or Land
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &7761657795935354943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Jump & Land/Jump Or Land
+  m_EditorClassIdentifier: 
+  Name: Jump Or Land
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &7772247508025075318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Scale Object Drop/SFX_Puzzle_ScaleObjects_Weight6
+  m_EditorClassIdentifier: 
+  Path: event:/Scale Object Drop/SFX_Puzzle_ScaleObjects_Weight6
+  guid: e7b1cf795a8ccd4695e08e73bcffead4
+  Banks:
+  - {fileID: 7393965354745421661}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1222
 --- !u!114 &8007150174023809369
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1842,6 +2658,81 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 1
+--- !u!114 &8338321603615032112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/MasterB.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/@external/projetofmod/lilgirl-fmod-project/Build/Desktop/MasterB.bank
+  SubDir: 
+  lastModified: 637285400588352219
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &8487966115070400613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/First Level/First Floor
+  m_EditorClassIdentifier: 
+  Path: snapshot:/First Level/First Floor
+  guid: da425831d308bb419dfc50f0a0ca1835
+  Banks:
+  - {fileID: -6485255925906275536}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &8525018580153771614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/SFX_Characters_LittleGirl_Walking/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  Min: 0
+  Max: 5
+  Default: 4
+  Exists: 0
+--- !u!114 &8699398699776667052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/SFX_Characters_LittleGirl_Walking/Speed Switch
+  m_EditorClassIdentifier: 
+  Name: Speed Switch
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &8711682300178133932
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1859,29 +2750,6 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
---- !u!114 &8800880290167895731
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/Puzzles/First Level/SFX_Puzzles_Clock_MinutePointer
-  m_EditorClassIdentifier: 
-  Path: event:/SFX/Puzzles/First Level/SFX_Puzzles_Clock_MinutePointer
-  guid: 139793b4768e49408e26bbfa04a810b1
-  Banks:
-  - {fileID: -223349012175415200}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 694
 --- !u!114 &8891132804679247496
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1899,6 +2767,40 @@ MonoBehaviour:
   lastModified: 637146329247250603
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &8979568690688050449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Jump & Land/Jump Or Land
+  m_EditorClassIdentifier: 
+  Name: Jump Or Land
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 1
+--- !u!114 &9012414814552819617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Jump & Land/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  Min: 0
+  Max: 5
+  Default: 4
   Exists: 0
 --- !u!114 &9111082455667310153
 MonoBehaviour:
@@ -1922,3 +2824,20 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 11814
+--- !u!114 &9147562099428860862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Jump & Land/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  Min: 0
+  Max: 5
+  Default: 4
+  Exists: 0

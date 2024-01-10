@@ -23,7 +23,6 @@ public class CottonBasketBehaviour : MonoBehaviour
         return mask == (mask | (1 << layer));
     }
 
-#if UNITY_EDITOR
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;
@@ -31,7 +30,6 @@ public class CottonBasketBehaviour : MonoBehaviour
         Gizmos.color = Color.magenta;
         Gizmos.DrawWireSphere(transform.position, DropRadius);
     }
-#endif
 
     protected void Start()
     {

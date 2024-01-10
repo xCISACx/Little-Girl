@@ -123,12 +123,8 @@ public class ReadableObjectBehaviour : MonoBehaviour
     public void MarkAsRead()
     {
         //Set all of the readable's icons as "collected readable" icons
-        ReadableAction readable = transform.parent.GetComponent<ReadableAction>();
-        if (readable != null)
-        {
-            readable.ButtonTexture = ReadButtonTexture;
-            readable.NormalButtonTexture = ReadButtonTexture;
-            readable.HoverButtonTexture = ReadHoverButtonTexture;
-        }
+        transform.parent.GetComponent<ReadableAction>().ButtonTexture = ReadButtonTexture;
+        transform.parent.GetComponent<ReadableAction>().NormalButtonTexture = ReadButtonTexture;
+        transform.parent.GetComponent<ReadableAction>().HoverButtonTexture = ReadHoverButtonTexture;
     }
 }
